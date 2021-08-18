@@ -1,0 +1,36 @@
+a {
+    color: inherit;
+    text-decoration: inherit;
+    opacity: 75%;
+}
+.active {
+    opacity: 100%;
+}
+.nav {
+    color: white;
+    background-color: #333333;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+.nav-title {
+    margin: 10px 20px;
+    display: flex;
+    align-items: flex-start;
+}
+.nav-links {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+li {
+    margin: 0px 10px;
+}
+.btn {
+    color: white;
+    background-color: #17a2b8;
+    border: black;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 2px 2px black;
+}
